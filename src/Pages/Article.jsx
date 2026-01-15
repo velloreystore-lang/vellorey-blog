@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import articles from "../data/articles.js";
+import Footer from '../MyComponets/footer.jsx';
+import Navbar from '../MyComponets/Navbar.jsx';
 
 function Article() {
   const { id } = useParams();          // get article id from URL
@@ -34,9 +36,13 @@ function Article() {
   if (!article) return <p>Article not found.</p>;
 
   return (
+    <>
+    <Navbar/>
     <article className="article-page">
       {content ? <ReactMarkdown>{content}</ReactMarkdown> : <p>Loading...</p>}
     </article>
+    <Footer />
+    </>
   );
 }
 

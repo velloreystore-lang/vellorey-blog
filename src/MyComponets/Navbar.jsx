@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
  
 
 function Nav() {
@@ -31,7 +32,7 @@ function Nav() {
           {/* Navbar menu */}
           <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
             <li>
-              <a href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
           </ul>
         </div>
