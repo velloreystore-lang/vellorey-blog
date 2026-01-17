@@ -78,6 +78,27 @@ body {
 .card-content:hover * {
   color: var(--accent);
 }
+@media (max-width: 710px) {
+  .card {
+    padding: 1rem; /* Adjust card padding for small screens */
+  }
+
+  .card h2 {
+    font-size: 1.5rem; /* Smaller heading */
+  }
+
+  .card img {
+    max-width: 100%;       /* Don't exceed card width */
+    max-height: auto;     /* Limit height to avoid stretching */
+    width: auto;           /* Maintain aspect ratio */
+    height: auto;
+    object-fit: cover;     /* Fill card nicely */
+    display: block;
+    margin: 0 auto;        /* Center image */
+    border-radius: 0.5rem; /* Optional: rounded corners */
+  }
+}
+
 main {
   max-width: 800px;
   width: 90%;
@@ -389,8 +410,10 @@ article pre {
 @media (max-width: 768px) {
   article {
     padding: 1.5rem;
+    margin: 30px
   }
 
   article h1 {
     font-size: 1.7rem;
-  }}
+  }
+}

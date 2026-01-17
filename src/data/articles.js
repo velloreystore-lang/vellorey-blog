@@ -39,6 +39,16 @@ export const articles = [
     cover: "/images/article-ThursdayBless/Thursday-Blessing1.jpg",
     file: "/articles/Thursday-blessing.md",
     readingTime: "8 min read"
+  },
+  {
+  id: "110-friday-blessings-prayers-messages-captions",
+  title: "110+ Friday Blessings, Prayers, Messages & Captions",
+  date: "2026-01-17",
+  excerpt:
+    "Explore 110+ Friday blessings, prayers, messages, and captions to bring peace, gratitude, faith, and positivity to your day.",
+  cover: "/images/article-FridayBless/Friday-Blessing1.jpeg",
+  file: "/articles/Friday-blessing.md",
+  readingTime: "12 min read"
   }
 ];
 export default articles;
