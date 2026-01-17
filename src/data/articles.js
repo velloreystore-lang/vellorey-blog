@@ -7,7 +7,7 @@ export const articles = [
     excerpt:
       "Explore positive Monday blessings, messages, and quotes to start your week with peace, faith, motivation, and renewed confidence.",
     cover: "/images/article-MondayBless/Monday-Blessing1.jpeg",
-    file: "/articles/Monday-Blessing.md",
+    file: "/articles/monday-blessing.md",
     readingTime: "10 min read"
   },
   {
@@ -17,7 +17,7 @@ export const articles = [
     excerpt:
       "Discover best Tuesday blessings, prayers, quotes, and images to start your day with positivity, gratitude, and spiritual guidance.",
     cover: "/images/article-TuesdayBless/Tuesday-Blessing1.jpeg",
-    file: "/articles/Tuesday-Blessing.md",
+    file: "/articles/tuesday-blessing.md",
     readingTime: "10 min read"
   },
   {
@@ -27,7 +27,7 @@ export const articles = [
     excerpt:
       "Discover meaningful Wednesday blessings, prayers, quotes, and uplifting images to bring calm, gratitude, and midweek inspiration.",
     cover: "/images/article-WednesdayBless/Wednesday-Blessing1.jpeg",
-    file: "/articles/Wednesday-Blessing.md",
+    file: "/articles/wednesday-blessing.md",
     readingTime: "7 min read"
   },
   {
@@ -37,7 +37,7 @@ export const articles = [
     excerpt:
       "Discover uplifting Thursday blessings, inspirational quotes, and heartfelt prayers to renew your faith.",
     cover: "/images/article-ThursdayBless/Thursday-Blessing1.jpg",
-    file: "/articles/Thursday-Blessing.md",
+    file: "/articles/thursday-blessing.md",
     readingTime: "8 min read"
   },
   {
@@ -47,7 +47,7 @@ export const articles = [
   excerpt:
     "Explore 110+ Friday blessings, prayers, messages, and captions to bring peace, gratitude, faith, and positivity to your day.",
   cover: "/images/article-FridayBless/Friday-Blessing2.jpeg",
-  file: "/articles/Friday-Blessing.md",
+  file: "/articles/friday-blessing.md",
   readingTime: "12 min read"
   }
 ];
