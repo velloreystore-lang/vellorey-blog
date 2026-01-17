@@ -46,7 +46,7 @@ export const articles = [
   date: "2026-01-17",
   excerpt:
     "Explore 110+ Friday blessings, prayers, messages, and captions to bring peace, gratitude, faith, and positivity to your day.",
-  cover: "/images/article-FridayBless/Friday-Blessing1.jpeg",
+  cover: "/images/article-FridayBless/Friday-Blessing2.jpeg",
   file: "/articles/Friday-blessing.md",
   readingTime: "12 min read"
   }
