@@ -4,7 +4,7 @@ import ArticleCard from '..//MyComponets/ArticleCard.jsx';
 import Navbar from '..//MyComponets/Navbar.jsx';
 import Footer from '..//MyComponets/footer.jsx';
 import React, {useState, useEffect} from "react";
-import { Helmet } from "react-helmet-async";
+
 
 function Home() {
   const [articleContents, setArticleContents] = useState({});
@@ -25,11 +25,7 @@ function Home() {
 
   return (
     <>
-      {articles.map((article) => (
-        <Helmet key={article.id}>
-          <title>{article.title}</title>
-          <meta name="description" content={article.excerpt} />
-        </Helmet>))}
+      
       <Navbar />
       <main>
         <div className="home-container">

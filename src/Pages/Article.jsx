@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import articles from "../data/articles.js";
 import Footer from '../MyComponets/footer.jsx';
 import Navbar from '../MyComponets/Navbar.jsx';
+import { Helmet } from "react-helmet-async";
 
 function Article() {
   const { id } = useParams();          // get article id from URL
@@ -37,6 +38,11 @@ function Article() {
 
   return (
     <>
+    {articles.map((article) => (
+        <Helmet key={article.id}>
+          <title>{article.title}</title>
+          <meta name="description" content={article.excerpt} />
+        </Helmet>))}
     <Navbar/>
     <article className="article-page">
       {content ? <ReactMarkdown>{content}</ReactMarkdown> : <p>Loading...</p>}
