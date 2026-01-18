@@ -1,0 +1,12 @@
+# robots.txt for vellorey.com
+
+User-agent: *
+# Allow everything to be crawled
+Allow: /
+
+# Block any private folders (optional, add if you have any)
+Disallow: /admin/
+Disallow: /drafts/
+
+# Sitemap URL
+Sitemap: https://vellorey.com/sitemap.xml
