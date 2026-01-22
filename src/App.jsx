@@ -10,7 +10,7 @@ import Privacy from "./Pages/PrivacyPolicy";
 import Terms from "./Pages/TermsAndConditions";
 import Disclaimer from "./Pages/Disclaimer";
 import About from "./Pages/AboutUs";
-import GoogleAnalytics from "vite-project\src\Pages\GoogleTag.jsx";
+import GoogleAnalytics from "./GoogleTag.jsx";
 
 function PageTracker() {
   const location = useLocation();
