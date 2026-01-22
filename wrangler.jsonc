@@ -1,7 +1,17 @@
 {
   "name": "vellorey-blogs",
   "compatibility_date": "2026-01-17",
+  "type": "static",
+  "account_id": "c2a70b8e0fca0181fcb3b335e868b51d",
+  "workers_dev": false,
+  "route": "vellorey.com/*",
+  "zone_id": "a3aca1aa2c4b0153d35984b9756e7266",
+  "build": {
+    "command": "npm run build",
+    "directory": "build"
+  },
   "assets": {
-    "directory": "./build"
+    "directory": "./build",
+    "not_found_handling": "single-page-application"
   }
 }
