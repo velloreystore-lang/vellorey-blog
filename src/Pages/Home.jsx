@@ -3,7 +3,9 @@ import articles from "../data/articles.js";
 import ArticleCard from '..//MyComponets/ArticleCard.jsx';
 import Navbar from '..//MyComponets/Navbar.jsx';
 import Footer from '..//MyComponets/footer.jsx';
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
+import Aurora from './Aurora.jsx';
+
 
 
 function Home() {
@@ -27,6 +29,7 @@ function Home() {
     <>
       
       <Navbar />
+      
       <main>
         <div className="home-container">
           {articles.map((article) => (
